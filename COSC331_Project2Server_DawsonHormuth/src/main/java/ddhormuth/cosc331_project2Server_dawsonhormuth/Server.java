@@ -91,6 +91,7 @@ public class Server extends ClientServer {
         receiveThread.end();
         sendThread.end();
         playThread.end();
+        input.close();
         
     }
 }

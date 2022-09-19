@@ -53,7 +53,7 @@ public class Graph {
     public String getPath() {
         String pathString = "";
         //stack for our characters
-        Stack<Character> s1 = new Stack();
+        Stack<Character> s1 = new Stack<Character>();
         //queue for our characters
         Queue<Character> q1 = new LinkedList<>();
         while (!path.empty()) {

@@ -58,5 +58,6 @@ public class Client extends ClientServer {
     }
         //ends receiving thread, sending thread is ended inside of its thread
         receiveThread.end();
+        input.close();
     }
 }

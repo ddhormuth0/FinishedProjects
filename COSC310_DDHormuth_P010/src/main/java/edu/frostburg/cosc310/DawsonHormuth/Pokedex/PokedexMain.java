@@ -4,14 +4,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.PrintStream;
-import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Pokedex main file that will display our pokedex class
+ * Pokedex main file that will display our pokedex class that uses a hashmap
  *
  * @author Dawson Hormuth
  */
@@ -296,8 +295,8 @@ public class PokedexMain implements Pokedex {
                 case "print" ->
                     this.printHT();
             }
-
+            inputLine.close();
         }
-
+        userInput.close();
     }
 }

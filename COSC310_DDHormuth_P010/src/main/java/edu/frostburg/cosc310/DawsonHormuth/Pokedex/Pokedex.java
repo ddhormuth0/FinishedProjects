@@ -1,9 +1,5 @@
 package edu.frostburg.cosc310.DawsonHormuth.Pokedex;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
-
 /**
  * Interface for the Pokemap project. Your main class should implement this
  * interface.

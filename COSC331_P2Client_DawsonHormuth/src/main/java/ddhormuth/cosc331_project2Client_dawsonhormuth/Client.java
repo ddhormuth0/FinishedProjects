@@ -59,6 +59,7 @@ public class Client extends ClientServer {
         sendThread.end();
         receiveThread.end();
         playThread.end();
+        input.close();
         
     }  
     

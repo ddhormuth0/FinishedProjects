@@ -130,8 +130,9 @@ public class TreeMainClass implements AVLTreeProject {
                     this.who();
 
             }
-
+            inputLine.close();
         }
+        userInput.close();
     }
 
     /**

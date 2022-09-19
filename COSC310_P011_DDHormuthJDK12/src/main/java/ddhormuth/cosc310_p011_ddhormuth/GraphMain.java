@@ -76,7 +76,7 @@ public class GraphMain {
                         //adds an edge to the current node indicated by the numOfNodes counter
                         dungeonOne.addEdge(numOfNodes, lineScan.next().charAt(0), lineScan.nextInt());
                     }
-
+                    lineScan.close();
                     numOfNodes++;
                 }
             }

@@ -61,6 +61,7 @@ public class Pokemap {
             String pokedexName = input.next();
             //FIRST WORD OF THE STRING SHOULD BE THE NAME
             //if the names are matches return the info
+            input.close();
             if (pokedexName.equals(name) && name != null) {
                 return this.pokedex[intName % this.tableSize];
                 //if the names are not matches probe forward
@@ -88,6 +89,7 @@ public class Pokemap {
             String pokedexName = input.next();
             //FIRST WORD OF THE STRING SHOULD BE THE NAME
             //if the names are matches replace with gravestone
+            input.close();
             if (pokedexName.equals(name) && name != null) {
                 pokedex[intName % this.tableSize] = gravestone;
                 return true;
