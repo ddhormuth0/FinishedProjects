@@ -1,7 +1,7 @@
 # FinishedProjects
 A portfolio of games and applications I created or collaborated on.
 
-Description of Each Application Below Along With the Class it Was Created For and the Language Used
+Description Of Each Application Below Along With The Class It Was Created For And The Language Used
 
 AVLTree (Java)(Developed By Myself)(COSC 310 Data Sturctures and Algorithm Analysis)
 Using a csv file that contains a list of names and data attached to them, a AVL tree is created from them. It automatically balances itself and stores the values of each persons' interest on each node. The program allows insertion of a name, searching, and printing of the tree in inorder preorder and postorder.
