@@ -234,7 +234,7 @@ public class TreeMainClass implements AVLTreeProject {
         try {
             //uses , and new line/row as delimiter
             //TO MAKE THE PROGRAM BETTER, I COULD ASK THE USER TO INPUT THE FILE NAME BECAUSE ALL FILES WILL NOT HAVE THIS NAME
-            Scanner input = new Scanner(new File("class_interests.csv")).useDelimiter(",|\r\n");
+            Scanner input = new Scanner(new File("class_interests.csv")).useDelimiter(",|\r\n|\n");
             System.out.println("File Found!");
             //skips the first line because that is the label line
             input.nextLine();

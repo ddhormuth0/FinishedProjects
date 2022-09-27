@@ -55,7 +55,7 @@ public class SendingThread extends Thread {
             System.out.println("Type message you want to send: ");
             }
             message = input.nextLine();
-            //if the user wants to end the prcess then we will send this to the destination host
+            //if the user wants to end the process then we will send this to the destination host
             if(message.equals("end"))
                 message = "Ending Message App, Server Host Closing";
                
@@ -72,10 +72,9 @@ public class SendingThread extends Thread {
             //if our message is equal to the ending message then we will call this.end to end our thread
             if(message.equals("Ending Message App, Server Host Closing"))
                 this.end();
-            	input.close();
         }
         
-        
+        input.close();
     }
     
     /**

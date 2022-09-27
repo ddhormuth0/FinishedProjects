@@ -124,7 +124,7 @@ public class PokedexMain implements Pokedex {
         try {
             //uses , and new line/row as delimiter
             //TO MAKE THE PROGRAM BETTER, I COULD ASK THE USER TO INPUT THE FILE NAME BECAUSE ALL FILES WILL NOT HAVE THIS NAME
-            Scanner input = new Scanner(new File("pokemon_pokedex_alt.csv"), StandardCharsets.UTF_8).useDelimiter(",|\r\n");
+            Scanner input = new Scanner(new File("pokemon_pokedex_alt.csv"), StandardCharsets.UTF_8).useDelimiter(",|\r\n|\n");
             System.out.println("File Found!");
             //skips the first line because that is the label line
             input.nextLine();
@@ -213,7 +213,7 @@ public class PokedexMain implements Pokedex {
                             System.out.println(find(parameterOne));
                         }
                     } else {
-                        System.out.println("Please follow 'search' with pokemon");
+                        System.out.println("Please follow 'find' with pokemon");
                     }
 
                 }

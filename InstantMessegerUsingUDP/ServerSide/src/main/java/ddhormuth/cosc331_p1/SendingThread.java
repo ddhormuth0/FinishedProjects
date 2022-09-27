@@ -72,10 +72,10 @@ public class SendingThread extends Thread {
             //if our message is equal to the ending message then we will call this.end to end our thread
             if(message.equals("Ending Message App, Server Host Closing"))
                 this.end();
-            	input.close();
+      
         }
         
-        
+        input.close();
     }
     
     /**
